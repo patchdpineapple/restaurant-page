@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Varela Round', Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(255, 0, 0);
+}
+
+
+#content {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 1366px;
+}
+
+.logowrapper {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+.logo {
+    width: 140px;
+    height: 140px;
+}
+
+.headline {
+    color: rgb(255, 255, 255);
+    padding: 20px;
+
+}
+
+.food {
+    box-shadow: 0px 0px 10px black;
+}
+
+.about {
+    padding: 10px;
+    width: 900px;
+    color: white;
+}
