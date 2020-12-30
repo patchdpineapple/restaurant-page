@@ -7,7 +7,7 @@ const homepage = (function(){
         logowrapper.classList.add('logowrapper');
         
         const logo = document.createElement('img');
-        logo.setAttribute('src', "../img/jollibeelogo.png");
+        logo.setAttribute('src', "./img/jollibeelogo.png");
         logo.classList.add('logo');
 
         const tabs = document.createElement('div');
@@ -44,7 +44,7 @@ const homepage = (function(){
         headline.classList.add('headline');
 
         const food = document.createElement('img');
-        food.setAttribute('src', '../img/jollibeefood.jpg');
+        food.setAttribute('src', './img/jollibeefood.jpg');
         food.classList.add('food');
 
         const about = document.createElement('div');

@@ -5,7 +5,7 @@ const menu = (function() {
         tabcontents.setAttribute('id', 'tabcontents');
 
         const menu = document.createElement('img');
-        menu.setAttribute('src', '../img/jollibeemenu.jpg');
+        menu.setAttribute('src', './img/jollibeemenu.jpg');
         menu.classList.add('menu');
 
         document.getElementById('content').append(tabcontents);
